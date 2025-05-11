@@ -40,7 +40,7 @@ while True:
 
     # Get the latest entry
     latest_data = stock_data.iloc[-1]
-    price = float(latest_data['Close'])
+    price = float(latest_data['Close'].iloc[0])
     action = "BUY" if latest_data['Signal'].item() else "SELL"
 
     # Send signal
