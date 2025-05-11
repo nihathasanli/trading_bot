@@ -6,14 +6,14 @@ import os
 
 # Telegram Bot settings
 TELEGRAM_TOKEN = "8198415223:AAEJkuvp-LuHL_1oU07AplEIMb3LnjxjuWw"  # <-- Replace with your token
-CHAT_ID = "8198415223"  # <-- Replace with your chat_id
+CHAT_ID = "126902456"  # <-- Replace with your chat_id
 
 
 # Settings
 ticker = "AAPL"
 interval = 3600  # Run every 1 hour
 
-# Define the function to send signals
+# Define the function to send signal
 def send_signal(action, price):
     message = f"📈 Stock Alert:\nTicker: {ticker}\nAction: {action}\nPrice: {price}\nTimestamp: {datetime.now().isoformat()}"
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
