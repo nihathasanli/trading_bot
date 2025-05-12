@@ -8,7 +8,7 @@ TELEGRAM_TOKEN = "8198415223:AAEJkuvp-LuHL_1oU07AplEIMb3LnjxjuWw"
 CHAT_ID = "126902456"
 
 # Settings
-tickers = ["AAPL", "MSFT", "GOOGL", "AMZN", "TSLA", "NVDA", "META", "BABA", "NFLX", "AMD"]
+tickers = [ "AMZN", "NVDA" , "AMD", "GOOG", "META", "BITF", "QBTS", "TSLA", "BYDDF", "INVZ", "ALGS", "HOOD", "RVPH", "MBLY"]
 interval = 1800  # Run every 30 minutes
 
 # Define the function to send signal
